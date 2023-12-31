@@ -35,7 +35,6 @@ Then, follow these steps:
 3. **Optional: Emulator Configuration:** Configure emulator properties in `config/emulator.properties` if necessary. The project can start an emulator programmatically or use any running emulator.
 4. **Run using TestNG:** Directly run from 'tests/IkeaTest.java'
 
-
 ## Test Cases
 
 ### TC1: Validate Product Details Consistency
@@ -47,6 +46,7 @@ Then, follow these steps:
     3. Compare product names and prices between the two pages.
 - **Assertions:**
     - Ensures that the product name and price match between the listing and details pages.
+
 
 ### TC2: Validate Cart Functionality
 
