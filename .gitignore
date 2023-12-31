@@ -1,0 +1,13 @@
+## Target Folder ##
+target/
+
+
+### IntelliJ IDEA ###
+.idea/
+
+
+### Mac OS ###
+*.DS_Store
+
+
+### Ignore Secific Classes ##

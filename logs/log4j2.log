@@ -1,0 +1,88 @@
+2024-01-01 01:04:13,968 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:60943/
+2024-01-01 01:04:24,808 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 01:04:24,878 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 01:04:53,696 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 01:04:54,884 INFO c.a.u.Logs [main] Started recording
+2024-01-01 01:05:08,064 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 01:05:11,288 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 01:05:12,964 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 01:05:19,284 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 01:05:22,865 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 01:05:23,800 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 01:05:24,697 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 01:05:25,751 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 01:05:28,273 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 01:05:30,919 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 01:05:33,607 INFO c.a.u.Logs [main] Selected 3 from picker
+2024-01-01 01:05:33,755 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 01:05:34,650 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 01:05:37,281 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 01:05:38,465 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 01:05:40,882 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 01:05:41,969 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 01:05:43,422 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 01:05:43,428 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 01:05:43,433 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 01:05:48,101 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 01:05:53,474 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 01:05:55,414 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 01:05:55,522 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 01:18:14,656 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:61572/
+2024-01-01 01:18:24,724 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 01:18:24,781 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 01:19:07,984 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 01:19:08,287 ERROR c.a.u.Logs [main] Failed to start recordingCannot invoke "io.appium.java_client.android.AndroidDriver.startRecordingScreen(io.appium.java_client.screenrecording.BaseStartScreenRecordingOptions)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 01:19:08,288 INFO c.a.u.Logs [main] *** Test TC1: Validate that product's details consistency skipped ***
+2024-01-01 01:19:08,291 ERROR c.a.u.Logs [main] Failed to take screenshot Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 01:19:08,292 ERROR c.a.u.Logs [main] Failed to stop/download recordingCannot invoke "io.appium.java_client.android.AndroidDriver.stopRecordingScreen()" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 01:19:08,297 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 01:19:08,297 ERROR c.a.u.Logs [main] Failed to start recordingCannot invoke "io.appium.java_client.android.AndroidDriver.startRecordingScreen(io.appium.java_client.screenrecording.BaseStartScreenRecordingOptions)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 01:19:08,298 INFO c.a.u.Logs [main] *** Test TC2: Validate that cart is empty post product removal skipped ***
+2024-01-01 01:19:08,299 ERROR c.a.u.Logs [main] Failed to take screenshot Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 01:19:08,299 ERROR c.a.u.Logs [main] Failed to stop/download recordingCannot invoke "io.appium.java_client.android.AndroidDriver.stopRecordingScreen()" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 01:19:08,303 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 01:19:13,288 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 01:19:13,352 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 01:22:15,398 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:61986/
+2024-01-01 01:22:25,543 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 01:22:25,676 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 01:22:57,588 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 01:22:59,650 INFO c.a.u.Logs [main] Started recording
+2024-01-01 01:23:15,798 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 01:23:22,553 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 01:23:24,262 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 01:23:27,380 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 01:23:27,680 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 01:23:27,974 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 01:23:31,373 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 01:23:31,439 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 01:23:31,444 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 01:23:31,444 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 01:23:31,447 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 01:23:33,732 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 01:24:05,108 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 01:24:06,278 INFO c.a.u.Logs [main] Started recording
+2024-01-01 01:24:13,951 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 01:24:18,489 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 01:24:20,545 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 01:24:23,744 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 01:24:27,201 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 01:24:28,273 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 01:24:29,307 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 01:24:30,421 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 01:24:31,949 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 01:24:33,047 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 01:24:34,770 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 01:24:36,172 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 01:24:37,119 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 01:24:40,119 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 01:24:41,039 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 01:24:43,728 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 01:24:46,302 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 01:24:49,160 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 01:24:49,164 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 01:24:49,167 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 01:24:53,482 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 01:25:00,839 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 01:25:02,611 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 01:25:02,728 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
