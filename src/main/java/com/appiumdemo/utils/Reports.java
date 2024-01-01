@@ -11,7 +11,7 @@ public class Reports {
     public synchronized static ExtentReports getReport() {
         if (report == null) {
             // set HTML report file location
-            ExtentSparkReporter spark = new ExtentSparkReporter(Constants.reportPath);
+            ExtentSparkReporter spark = new ExtentSparkReporter(Constants.reportsPath);
             report = new ExtentReports();
             report.attachReporter(spark);
         }

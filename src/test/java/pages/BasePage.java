@@ -1,8 +1,8 @@
 package pages;
 
 import com.appiumdemo.engine.BaseDriver;
+import com.appiumdemo.utils.Configs;
 import com.appiumdemo.utils.Extent;
-import com.appiumdemo.utils.Locators;
 import com.appiumdemo.utils.Logs;
 import com.aventstack.extentreports.Status;
 import io.appium.java_client.android.AndroidDriver;
@@ -15,7 +15,7 @@ import java.util.Properties;
 
 public class BasePage {
     AndroidDriver driver = BaseDriver.getCurrentDriver();
-    Properties locators = Locators.locatorsConfig;
+    Properties locators = Configs.config;
 
 
     // Method for dynamic locator handling
@@ -77,7 +77,7 @@ public class BasePage {
         try {
             By by = getByLocator(locatorType, locators.getProperty(object));
             RemoteWebElement newQuantity = (RemoteWebElement) driver.findElement(by);
-            driver.executeScript("gesture: longPress", Map.of("elementId", newQuantity.getId(), "pressure", 0.4, "duration", 450));
+            driver.executeScript("gesture: longPress", Map.of("elementId", newQuantity.getId(), "pressure", 0.4, "duration", 440));
             Logs.info("Selected 2 from quantity picker");
             Extent.getTest().log(Status.PASS, "Selected 2 from quantity picker");
         } catch (Exception e) {

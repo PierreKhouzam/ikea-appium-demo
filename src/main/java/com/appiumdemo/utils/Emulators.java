@@ -1,7 +1,6 @@
 package com.appiumdemo.utils;
 
 import java.io.*;
-import java.util.Properties;
 
 public class Emulators {
 
@@ -10,13 +9,8 @@ public class Emulators {
     public static void startEmulator() {
         new Thread(() -> {
             try {
-                FileInputStream input = new FileInputStream(Constants.emulatorsConfig);
-                Properties emulatorsConfig = new Properties(System.getProperties());
-                emulatorsConfig.load(input);
-
-                String emulatorPath = emulatorsConfig.getProperty("emulator.path");
-                String emulatorName = emulatorsConfig.getProperty("emulator.name");
-
+                String emulatorPath = Configs.config.getProperty("emulator.path");
+                String emulatorName = Configs.config.getProperty("emulator.name");
                 if (emulatorPath != null && emulatorName != null) {
                     ProcessBuilder pb = new ProcessBuilder(emulatorPath, "-avd", emulatorName);
                     pb.inheritIO(); // Redirect output to the console
@@ -52,14 +46,19 @@ public class Emulators {
         }
     }
 
-    public static String startOrReturnEmulator() throws InterruptedException {
-        String runningEmulator = detectRunningEmulator();
-        if (runningEmulator.equals("")) {
-            startEmulator(); // Run the emulator if not running
-            Thread.sleep(10000);
-            return detectRunningEmulator();
-        } else {
-            return runningEmulator;
+    public static void startOrReturnEmulator() {
+        try {
+            String runningEmulator = detectRunningEmulator();
+            if (runningEmulator.equals("")) {
+                startEmulator(); // Run the emulator if not running
+                Thread.sleep(10000);
+                runningEmulator = detectRunningEmulator();
+                Logs.info("Emulator " + runningEmulator + " started");
+            } else {
+                Logs.info("Emulator " + runningEmulator + " is already running!");
+            }
+        } catch (InterruptedException e) {
+            Logs.error("Couldn't start emulator" + e.getMessage());
         }
     }
 
@@ -82,5 +81,17 @@ public class Emulators {
         } catch (IOException | InterruptedException e) {
             Logs.error("Error while stopping the emulator " + e.getMessage());
         }
+    }
+
+    public static void uninstallApp() {
+        try {
+            String appPackage = Configs.config.getProperty("app.package");
+            ProcessBuilder processBuilder = new ProcessBuilder("adb", "uninstall", appPackage);
+            processBuilder.start().waitFor();
+            Logs.info("App is uninstalled");
+        } catch (IOException | InterruptedException e) {
+            Logs.error("Couldn't uninstall the specified app " + e.getMessage());
+        }
+
     }
 }

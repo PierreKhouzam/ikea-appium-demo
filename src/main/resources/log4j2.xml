@@ -11,7 +11,7 @@
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="com.myapplication" level="debug" additivity="false">
+        <Logger name="com.myapplication" level="debug" additivity="false" append="false">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
         </Logger>

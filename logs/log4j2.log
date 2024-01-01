@@ -86,3 +86,591 @@
 2024-01-01 01:25:00,839 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
 2024-01-01 01:25:02,611 INFO c.a.u.Logs [main] Appium server stopped
 2024-01-01 01:25:02,728 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 02:14:04,897 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:62886/
+2024-01-01 02:14:15,032 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 02:14:38,146 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 02:14:38,185 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 02:14:39,471 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:14:46,236 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 02:14:50,312 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 02:14:52,152 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 02:14:55,153 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 02:14:55,387 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 02:14:55,655 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 02:14:58,683 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 02:14:58,751 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 02:14:58,755 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 02:14:58,755 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 02:14:58,757 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 02:15:00,614 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:15:05,323 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:15:05,334 ERROR c.a.u.Logs [main] Failed to start recordingSession ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, startRecordingScreen {options={timeLimit=200, videoSize=1280x720}}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,335 ERROR c.a.u.Logs [main] Failed to click on element homeSearch, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=id, value=com.ikea.alfuttaim.store:id/textView7}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,337 ERROR c.a.u.Logs [main] Failed to write in searchField, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=id, value=com.ikea.alfuttaim.store:id/search_products_text_view}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,339 ERROR c.a.u.Logs [main] Failed to click on element firstSearchResult, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=xpath, value=//android.widget.TextView[@resource-id="com.ikea.alfuttaim.store:id/tv_text" and @text="Table"]}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,340 ERROR c.a.u.Logs [main] Failed to click on element firstListingProduct, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=xpath, value=(//android.widget.ImageView[@resource-id="com.ikea.alfuttaim.store:id/iv_product"])[1]}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,341 ERROR c.a.u.Logs [main] Failed to click on element addToBagBtn, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=id, value=com.ikea.alfuttaim.store:id/bt_add_to_cart}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,342 ERROR c.a.u.Logs [main] Failed to click on element detailsBckBtn, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=id, value=com.ikea.alfuttaim.store:id/ic_back}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,343 ERROR c.a.u.Logs [main] Failed to click on element listingBckBtn, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=id, value=com.ikea.alfuttaim.store:id/iv_back}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,344 ERROR c.a.u.Logs [main] Failed to click on element searchBckBtn, while error is org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, findElement {using=id, value=com.ikea.alfuttaim.store:id/back_btn}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,346 INFO c.a.u.Logs [main] *** Test execution failed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:15:05,347 ERROR c.a.u.Logs [main] Failed to take screenshot Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, screenshot {}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,348 ERROR c.a.u.Logs [main] Failed to stop/download recordingSession ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '17.0.8.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, stopRecordingScreen {}]
+Capabilities {appium:app: /Users/pierrekhouzam/IdeaPr..., appium:appPackage: com.ikea.alfuttaim.store, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/pierrekhouzam/IdeaPr..., autoGrantPermissions: true, automationName: UIAutomator2, fullReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3120, appium:deviceUDID: emulator-5554, appium:fullReset: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2807, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+2024-01-01 02:15:05,357 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 02:15:06,626 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 02:15:06,721 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 02:18:51,647 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:63280/
+2024-01-01 02:19:01,942 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 02:19:30,582 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 02:19:30,622 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 02:19:32,518 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:19:45,611 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 02:19:50,600 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 02:19:52,654 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 02:19:56,140 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 02:19:56,398 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 02:19:56,623 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 02:19:59,758 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 02:19:59,846 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 02:19:59,852 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 02:19:59,852 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 02:19:59,856 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 02:20:02,037 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:20:02,078 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:20:02,604 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:20:02,605 INFO c.a.u.Logs [main] *** Test TC2: Validate that cart is empty post product removal skipped ***
+2024-01-01 02:20:03,932 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:20:03,938 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 02:20:06,112 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 02:20:07,096 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 02:24:20,043 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:63701/
+2024-01-01 02:24:30,718 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 02:24:30,726 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 02:24:51,809 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 02:24:52,117 ERROR c.a.u.Logs [main] Failed to start recordingCannot invoke "io.appium.java_client.android.AndroidDriver.startRecordingScreen(io.appium.java_client.screenrecording.BaseStartScreenRecordingOptions)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 02:24:52,118 INFO c.a.u.Logs [main] *** Test TC1: Validate that product's details consistency skipped ***
+2024-01-01 02:24:52,119 ERROR c.a.u.Logs [main] Failed to take screenshot Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 02:24:52,120 ERROR c.a.u.Logs [main] Failed to stop/download recordingCannot invoke "io.appium.java_client.android.AndroidDriver.stopRecordingScreen()" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 02:24:52,127 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:24:52,127 ERROR c.a.u.Logs [main] Failed to start recordingCannot invoke "io.appium.java_client.android.AndroidDriver.startRecordingScreen(io.appium.java_client.screenrecording.BaseStartScreenRecordingOptions)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 02:24:52,128 INFO c.a.u.Logs [main] *** Test TC2: Validate that cart is empty post product removal skipped ***
+2024-01-01 02:24:52,128 ERROR c.a.u.Logs [main] Failed to take screenshot Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 02:24:52,129 ERROR c.a.u.Logs [main] Failed to stop/download recordingCannot invoke "io.appium.java_client.android.AndroidDriver.stopRecordingScreen()" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 02:24:52,132 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 02:24:57,359 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 02:24:57,387 ERROR c.a.u.Logs [main] Emulator ID is empty
+2024-01-01 02:33:01,334 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:64560/
+2024-01-01 02:33:11,593 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 02:33:11,615 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 02:33:37,949 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 02:33:39,611 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:33:55,108 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 02:33:59,018 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 02:34:00,638 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 02:34:03,633 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 02:34:04,002 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 02:34:04,284 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 02:34:07,573 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 02:34:07,654 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 02:34:07,658 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 02:34:07,659 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 02:34:07,662 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 02:34:09,984 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:34:37,423 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:34:38,221 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:34:53,702 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 02:34:57,748 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 02:34:59,386 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 02:35:03,058 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 02:35:05,404 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 02:35:07,339 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 02:35:08,322 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 02:35:09,411 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 02:35:12,004 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 02:35:16,294 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 02:35:19,392 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 02:35:20,802 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 02:35:21,721 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 02:35:24,615 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 02:35:26,175 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 02:35:28,191 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 02:35:29,571 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 02:35:31,059 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 02:35:31,062 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 02:35:31,063 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:35:35,219 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:35:41,115 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 02:35:42,975 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 02:52:49,323 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:65346/
+2024-01-01 02:52:59,919 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 02:52:59,934 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 02:53:15,801 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 02:53:17,444 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:53:32,959 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 02:53:37,391 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 02:53:38,768 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 02:53:42,192 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 02:53:42,467 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 02:53:42,781 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 02:53:45,730 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 02:53:45,812 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 02:53:45,815 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 02:53:45,815 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 02:53:45,818 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 02:53:47,877 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:53:47,918 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 02:53:48,416 INFO c.a.u.Logs [main] Started recording
+2024-01-01 02:53:48,416 INFO c.a.u.Logs [main] *** Test TC2: Validate that cart is empty post product removal skipped ***
+2024-01-01 02:53:49,938 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 02:53:49,941 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 02:53:51,354 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 03:01:11,815 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:49430/
+2024-01-01 03:01:22,431 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 03:01:22,468 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 03:01:36,974 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 03:01:38,385 INFO c.a.u.Logs [main] Started recording
+2024-01-01 03:01:49,318 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 03:01:55,861 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 03:01:57,718 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 03:02:00,710 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 03:02:00,994 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 03:02:01,208 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 03:02:04,172 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 03:02:04,241 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 03:02:04,244 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 03:02:04,245 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 03:02:04,247 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 03:02:06,320 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 03:02:06,700 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 03:02:08,317 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 03:16:58,151 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:49938/
+2024-01-01 03:17:08,552 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 03:17:08,578 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 03:17:28,197 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 03:17:30,112 INFO c.a.u.Logs [main] Started recording
+2024-01-01 03:17:41,547 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 03:17:44,646 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 03:17:46,295 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 03:17:47,965 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 03:17:48,273 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 03:17:48,509 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 03:17:53,352 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 03:17:53,428 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 03:17:53,431 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 03:17:53,431 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 03:17:53,434 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 03:17:55,588 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 03:18:00,247 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 03:18:01,683 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 03:18:01,732 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 03:18:35,011 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:50246/
+2024-01-01 03:18:45,105 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 03:18:45,134 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 03:19:05,333 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 03:19:07,201 INFO c.a.u.Logs [main] Started recording
+2024-01-01 03:19:17,635 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 03:19:22,563 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 03:19:24,518 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 03:19:26,581 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 03:19:27,888 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 03:19:30,731 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 03:19:30,906 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 03:19:32,141 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 03:19:34,169 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 03:19:36,764 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 03:19:38,248 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 03:19:39,642 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 03:19:40,489 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 03:19:42,105 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 03:19:42,965 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 03:19:44,555 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 03:19:45,732 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 03:19:47,031 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 03:19:47,038 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 03:19:47,043 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 03:19:49,930 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 03:19:54,494 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 03:19:56,253 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 03:19:56,335 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 03:46:42,373 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:50819/
+2024-01-01 03:46:54,683 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 03:46:54,698 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 03:47:15,044 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 03:47:16,628 INFO c.a.u.Logs [main] Started recording
+2024-01-01 03:47:30,698 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 03:47:33,412 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 03:47:34,940 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 03:47:36,809 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 03:47:37,096 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 03:47:37,371 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 03:47:40,157 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 03:47:40,236 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 03:47:40,241 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 03:47:40,241 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 03:47:40,244 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 03:47:42,526 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 03:48:43,511 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 03:48:44,107 INFO c.a.u.Logs [main] Started recording
+2024-01-01 03:48:56,675 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 03:48:59,506 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 03:49:01,309 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 03:49:03,174 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 03:49:06,313 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 03:49:07,390 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 03:49:08,119 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 03:49:09,234 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 03:49:11,233 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 03:49:13,765 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 03:49:15,063 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 03:49:16,470 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 03:49:17,286 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 03:49:18,796 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 03:49:20,863 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 03:49:24,324 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 03:49:26,499 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 03:49:26,612 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 03:49:26,615 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 03:49:26,618 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 03:49:28,987 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 03:49:34,212 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 03:49:36,729 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 03:49:36,796 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 03:54:34,782 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:51583/
+2024-01-01 03:54:34,787 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 03:54:34,796 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 03:54:54,505 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 03:54:55,664 INFO c.a.u.Logs [main] Started recording
+2024-01-01 03:55:08,255 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 03:55:11,385 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 03:55:12,887 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 03:55:14,726 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 03:55:15,371 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 03:55:15,611 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 03:55:18,509 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 03:55:18,591 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 03:55:18,595 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 03:55:18,596 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 03:55:18,599 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 03:55:22,147 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 03:55:26,719 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 03:55:28,428 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:16:29,140 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:52082/
+2024-01-01 04:16:29,262 ERROR c.a.u.Logs [Thread-0] Emulator properties not provided in the config file!
+2024-01-01 04:16:39,296 INFO c.a.u.Logs [main] Emulator  started
+2024-01-01 04:16:39,298 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 04:16:39,306 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:17:00,271 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 04:17:00,504 ERROR c.a.u.Logs [main] Failed to start recordingCannot invoke "io.appium.java_client.android.AndroidDriver.startRecordingScreen(io.appium.java_client.screenrecording.BaseStartScreenRecordingOptions)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 04:17:00,505 INFO c.a.u.Logs [main] *** Test TC1: Validate that product's details consistency skipped ***
+2024-01-01 04:17:00,506 ERROR c.a.u.Logs [main] Failed to take screenshot Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 04:17:00,507 ERROR c.a.u.Logs [main] Failed to stop/download recordingCannot invoke "io.appium.java_client.android.AndroidDriver.stopRecordingScreen()" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 04:17:00,510 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:17:00,510 ERROR c.a.u.Logs [main] Failed to start recordingCannot invoke "io.appium.java_client.android.AndroidDriver.startRecordingScreen(io.appium.java_client.screenrecording.BaseStartScreenRecordingOptions)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 04:17:00,511 INFO c.a.u.Logs [main] *** Test TC2: Validate that cart is empty post product removal skipped ***
+2024-01-01 04:17:00,511 ERROR c.a.u.Logs [main] Failed to take screenshot Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 04:17:00,511 ERROR c.a.u.Logs [main] Failed to stop/download recordingCannot invoke "io.appium.java_client.android.AndroidDriver.stopRecordingScreen()" because the return value of "com.appiumdemo.engine.BaseDriver.getCurrentDriver()" is null
+2024-01-01 04:17:00,514 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:17:04,804 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:18:07,454 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:52459/
+2024-01-01 04:18:17,660 INFO c.a.u.Logs [main] Emulator emulator-5554 started
+2024-01-01 04:18:17,665 INFO c.a.u.Logs [main] Locators config loaded
+2024-01-01 04:18:17,680 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:18:41,366 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 04:18:42,841 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:18:53,266 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:18:55,151 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:18:56,870 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:18:58,739 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 04:18:59,030 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 04:18:59,279 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:19:02,062 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 04:19:02,135 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 04:19:02,139 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 04:19:02,139 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 04:19:02,142 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 04:19:04,316 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:19:29,605 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:19:30,252 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:19:39,503 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:19:42,435 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:19:43,927 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:19:45,593 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:19:49,062 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 04:19:51,767 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 04:19:52,795 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 04:19:53,978 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 04:19:56,128 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 04:19:58,862 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 04:20:00,231 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 04:20:01,578 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 04:20:02,343 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 04:20:05,131 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 04:20:06,008 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 04:20:08,497 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 04:20:09,268 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 04:20:10,695 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 04:20:10,696 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 04:20:10,698 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:20:13,566 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:20:18,939 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:20:20,909 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:40:32,032 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:53283/
+2024-01-01 04:40:32,040 INFO c.a.u.Logs [main] Config loaded
+2024-01-01 04:40:32,749 INFO c.a.u.Logs [main] Emulator emulator-5554 is already running!
+2024-01-01 04:40:32,755 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:40:43,193 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 04:40:43,976 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:40:57,485 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:41:00,477 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:41:02,258 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:41:05,186 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 04:41:05,431 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 04:41:05,677 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:41:08,952 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 04:41:09,012 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 04:41:09,017 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 04:41:09,017 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 04:41:09,020 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 04:41:10,997 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:41:16,160 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:41:17,864 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:41:18,216 INFO c.a.u.Logs [main] App is uninstalled
+2024-01-01 04:41:18,288 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 04:44:00,709 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:53648/
+2024-01-01 04:44:00,714 INFO c.a.u.Logs [main] Config loaded
+2024-01-01 04:44:11,473 INFO c.a.u.Logs [main] Emulator emulator-5554 started
+2024-01-01 04:44:11,548 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:44:34,933 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:44:36,193 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:44:45,600 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:44:48,595 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:44:51,702 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:44:54,489 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:44:55,814 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 04:44:57,788 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 04:44:58,532 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 04:44:59,583 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 04:45:01,730 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 04:45:04,845 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 04:45:06,382 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 04:45:07,701 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 04:45:08,512 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 04:45:10,631 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 04:45:11,505 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 04:45:12,985 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 04:45:14,161 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 04:45:15,535 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 04:45:15,540 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 04:45:15,544 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:45:18,223 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:45:22,938 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:45:24,509 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:45:24,914 INFO c.a.u.Logs [main] App is uninstalled
+2024-01-01 04:45:25,021 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 04:48:15,019 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:54065/
+2024-01-01 04:48:15,026 INFO c.a.u.Logs [main] Config loaded
+2024-01-01 04:48:25,102 INFO c.a.u.Logs [main] Emulator emulator-5554 started
+2024-01-01 04:48:25,126 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:48:47,462 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:48:48,840 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:48:56,248 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:48:58,770 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:49:00,751 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:49:02,584 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:49:04,638 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 04:49:07,092 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 04:49:07,298 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 04:49:08,365 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 04:49:09,704 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 04:49:10,666 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 04:49:11,977 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 04:49:12,765 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 04:49:13,628 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 04:49:15,637 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 04:49:16,280 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 04:49:17,630 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 04:49:18,869 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 04:49:21,353 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 04:49:21,358 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 04:49:21,361 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:49:24,356 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:49:28,265 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:49:30,415 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:49:30,755 INFO c.a.u.Logs [main] App is uninstalled
+2024-01-01 04:49:30,827 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 04:51:58,904 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:54616/
+2024-01-01 04:51:58,910 INFO c.a.u.Logs [main] Config loaded
+2024-01-01 04:51:59,115 INFO c.a.u.Logs [main] Emulator emulator-5554 is already running!
+2024-01-01 04:51:59,127 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:52:18,690 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:52:20,070 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:52:25,752 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:52:27,511 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:52:29,278 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:52:31,004 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:52:33,870 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 04:52:34,950 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 04:52:35,707 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 04:52:36,826 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 04:52:38,497 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 04:52:39,378 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 04:52:41,038 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 04:52:41,879 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 04:52:42,672 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 04:52:44,653 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 04:52:45,922 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 04:52:47,403 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 04:52:48,736 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 04:52:51,495 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 04:52:51,501 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 04:52:51,505 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:52:54,916 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:52:59,616 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:53:01,004 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:53:01,332 INFO c.a.u.Logs [main] App is uninstalled
+2024-01-01 04:53:01,410 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 04:53:33,077 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:54995/
+2024-01-01 04:53:33,081 INFO c.a.u.Logs [main] Config loaded
+2024-01-01 04:53:43,202 INFO c.a.u.Logs [main] Emulator emulator-5554 started
+2024-01-01 04:53:43,251 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 04:54:05,240 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 04:54:06,802 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:54:10,867 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:54:12,526 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:54:15,073 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:54:16,653 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 04:54:16,943 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 04:54:17,146 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:54:21,864 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 04:54:22,061 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 04:54:22,066 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 04:54:22,066 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 04:54:22,071 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 04:54:28,940 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:54:53,766 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:54:54,380 INFO c.a.u.Logs [main] Started recording
+2024-01-01 04:55:05,030 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 04:55:07,610 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 04:55:09,186 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 04:55:11,458 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 04:55:14,553 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 04:55:15,502 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 04:55:16,300 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 04:55:17,512 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 04:55:19,835 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 04:55:23,286 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 04:55:24,807 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 04:55:25,680 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 04:55:26,389 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 04:55:28,363 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 04:55:29,121 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 04:55:30,515 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 04:55:31,715 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 04:55:33,097 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 04:55:33,100 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 04:55:33,102 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 04:55:35,672 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 04:55:39,761 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 04:55:41,462 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 04:55:41,943 INFO c.a.u.Logs [main] App is uninstalled
+2024-01-01 04:55:42,060 INFO c.a.u.Logs [main] Emulator stopped emulator-5554
+2024-01-01 05:09:58,671 INFO c.a.u.Logs [main] Appium server started on http://0.0.0.0:55678/
+2024-01-01 05:09:58,677 INFO c.a.u.Logs [main] Config loaded
+2024-01-01 05:10:08,867 INFO c.a.u.Logs [main] Emulator emulator-5554 started
+2024-01-01 05:10:08,959 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo started ***
+2024-01-01 05:10:33,373 INFO c.a.u.Logs [main] *** Running test method TC1: Validate that product's details consistency ***
+2024-01-01 05:10:34,817 INFO c.a.u.Logs [main] Started recording
+2024-01-01 05:10:43,982 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 05:10:47,013 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 05:10:48,566 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 05:10:53,178 INFO c.a.u.Logs [main] Getting text attribute for listingProductName
+2024-01-01 05:10:53,610 INFO c.a.u.Logs [main] Getting text attribute for listingProductPrice
+2024-01-01 05:10:53,865 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 05:10:57,193 INFO c.a.u.Logs [main] Getting text attribute for detailsProductName
+2024-01-01 05:10:57,266 INFO c.a.u.Logs [main] Getting text attribute for detailsProductPrice
+2024-01-01 05:10:57,270 INFO c.a.u.Logs [main] Validation: Product name in listing page matches product name in details page <PASSED> 
+2024-01-01 05:10:57,271 INFO c.a.u.Logs [main] Validation: Product price in listing page matches product price in details page <PASSED> 
+2024-01-01 05:10:57,274 INFO c.a.u.Logs [main] *** Test execution passed for TC1: Validate that product's details consistency ***
+2024-01-01 05:10:59,505 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 05:11:23,996 INFO c.a.u.Logs [main] *** Running test method TC2: Validate that cart is empty post product removal ***
+2024-01-01 05:11:24,645 INFO c.a.u.Logs [main] Started recording
+2024-01-01 05:11:34,177 INFO c.a.u.Logs [main] Clicking on element homeSearch
+2024-01-01 05:11:37,007 INFO c.a.u.Logs [main] Writing table in searchField
+2024-01-01 05:11:38,723 INFO c.a.u.Logs [main] Clicking on element firstSearchResult
+2024-01-01 05:11:40,511 INFO c.a.u.Logs [main] Clicking on element firstListingProduct
+2024-01-01 05:11:43,549 INFO c.a.u.Logs [main] Clicking on element addToBagBtn
+2024-01-01 05:11:44,605 INFO c.a.u.Logs [main] Clicking on element detailsBckBtn
+2024-01-01 05:11:45,350 INFO c.a.u.Logs [main] Clicking on element listingBckBtn
+2024-01-01 05:11:46,449 INFO c.a.u.Logs [main] Clicking on element searchBckBtn
+2024-01-01 05:11:48,627 INFO c.a.u.Logs [main] Clicking on element cartBtn
+2024-01-01 05:11:52,900 INFO c.a.u.Logs [main] Clicking on element productQuantityBtn
+2024-01-01 05:11:54,686 INFO c.a.u.Logs [main] Selected 2 from quantity picker
+2024-01-01 05:11:56,028 INFO c.a.u.Logs [main] Clicking on element okBtn
+2024-01-01 05:11:56,792 INFO c.a.u.Logs [main] Clicking on element checkoutBtn
+2024-01-01 05:11:58,736 INFO c.a.u.Logs [main] Clicking on element discardCheckoutBtn
+2024-01-01 05:11:59,737 INFO c.a.u.Logs [main] Clicking on element ConfirmDiscardBtn
+2024-01-01 05:12:01,074 INFO c.a.u.Logs [main] Clicking on element removeProductBtn
+2024-01-01 05:12:01,803 INFO c.a.u.Logs [main] Clicking on element confirmRemovalBtn
+2024-01-01 05:12:38,753 INFO c.a.u.Logs [main] Element is displayed for recommendedLabel
+2024-01-01 05:12:38,755 INFO c.a.u.Logs [main] Validation: Product is no longer displayed & Recommended section is displayed in cart <PASSED> 
+2024-01-01 05:12:38,755 INFO c.a.u.Logs [main] *** Test execution passed for TC2: Validate that cart is empty post product removal ***
+2024-01-01 05:12:40,892 INFO c.a.u.Logs [main] Stopped recording and clip is downloaded
+2024-01-01 05:12:45,780 INFO c.a.u.Logs [main] *** Test Suite ikea-appium-demo ending ***
+2024-01-01 05:12:47,146 INFO c.a.u.Logs [main] Appium server stopped
+2024-01-01 05:12:47,455 INFO c.a.u.Logs [main] App is uninstalled
+2024-01-01 05:12:47,550 INFO c.a.u.Logs [main] Emulator stopped emulator-5554

@@ -55,7 +55,7 @@ public class TListeners extends BaseTest implements ITestListener {
     public void onFinish(ITestContext context) {
         Logs.info(("*** Test Suite " + context.getName() + " ending ***"));
         Reports.getReport().flush();
-        File htmlFile = new File(Constants.reportPath);
+        File htmlFile = new File(Constants.reportsPath);
         try {
             Desktop.getDesktop().browse(htmlFile.toURI());
         } catch (IOException e) {
